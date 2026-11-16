@@ -33,7 +33,7 @@ void MostrarMatriz(string[,] matriz, int linha, int coluna)
     {
         for (int j = 0; j < coluna; j++)
         {
-            Console.Write($"[{matriz[i, j]}] \t");
+            Console.Write($"{matriz[i, j]} \t");
         }
         Console.WriteLine(" ");
     }
